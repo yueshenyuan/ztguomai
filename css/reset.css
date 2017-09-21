@@ -1,4 +1,4 @@
-html{font-family:"微软雅黑",Arial,sans-serif}
+html{font-family:"寰蒋闆呴粦",Arial,sans-serif}
  @import "sass";
 html {
     -ms-text-size-adjust: 100%;
@@ -18,7 +18,7 @@ body {
     background-size: cover;
 }
 body,pre{
-  font-family: "Helvetica Neue",Helvetica,"Hiragino Sans GB","Microsoft YaHei","微软雅黑","Helvetica Neue",Helvetica,"Hiragino Sans GB",Arial,sans-serif;
+  font-family: "Helvetica Neue",Helvetica,"Hiragino Sans GB","Microsoft YaHei","寰蒋闆呴粦","Helvetica Neue",Helvetica,"Hiragino Sans GB",Arial,sans-serif;
 }
 .clear{
   clear:both;
@@ -43,7 +43,7 @@ input, textarea, button, a {
     outline: 0
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ul, ol, dl, dd, fieldset, textarea, pre {
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, dl, dd, fieldset, textarea, pre, div {
     margin: 0;
     font-weight: normal;
     box-sizing: border-box;
