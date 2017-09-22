@@ -25,11 +25,16 @@
 .font-times {
   font-family: "Times New Roman" !important;
 }
-.text-ellipsis {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+.text-ellipsis{
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
 }
+
+
+
+
+
 .main {
   display: block;
   margin: 0 auto;
@@ -192,6 +197,7 @@
   box-shadow: 0 0 10px #829ab9;
   background: #eee;
 }
+
 .footer {
   color: #fff;
   width: 100%;
@@ -202,6 +208,8 @@
   text-align: center;
   background: url(../imgs/footer_ban.png);
 }
+
+
 .block-title {
   display: block;
   color: #efefef;
@@ -230,16 +238,14 @@
   line-height: 41px;
   overflow: hidden;
   border-bottom: 1px dotted #afafaf;
-}
-.news .list li a {
-  color: #393939;
-  font-size: 12px;
+  a{
+      color: #393939;
+      font-size: 12px;
+  }
 }
 .news .list li .name {
   float: left;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  .text-ellipsis;
 }
 .news .list li .date {
   float: right;
@@ -254,8 +260,8 @@
   padding-right: 18px;
   font-size: 16px;
   background: url(../imgs/arrow-right.png) no-repeat right center;
-}
-.more a {
-  color: #31271e;
-  font-family: "Calibri-Bold";
+  a{
+      color: #31271e;
+      font-family: "Calibri-Bold";
+  }
 }

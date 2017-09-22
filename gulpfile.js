@@ -14,7 +14,8 @@ gulp.task('less2css', function () {
     return    gulp.src('./less/*.less')
             .pipe(less())
             .pipe(gulp.dest('./css'))
-            .pipe(notify({ message: 'less2css task ok' }));
+            .pipe(notify({ message: 'less2css task ok' }))
+            .pipe(connect.reload());
 });
 
 // 合并、压缩、重命名css
@@ -43,8 +44,8 @@ gulp.task('js', function() {
 
 // 监测html文件改动
 gulp.task('html', function(){
-	return  gulp.src('*.html')
-			.pipe(gulp.dest('src'))
+	return  gulp.src('index/*.html')
+			.pipe(gulp.dest('index'))
 			.pipe(notify({ message: 'html task ok' }))
 			.pipe(connect.reload());
 })
@@ -54,7 +55,7 @@ gulp.task('watch', function(){
 	gulp.watch('less/*', function(e){
 		gulp.run('less2css');
 	})
-	gulp.watch('*.html', function(e){
+	gulp.watch('index/*.html', function(e){
 		gulp.run('html');
 	})
 })
@@ -68,8 +69,8 @@ gulp.task('connect', function () {
 
 // 生成zip包
 gulp.task('zip', function() {
-    return gulp.src(['**/*.*', '!node_modules/**/*.*', '!package.json', '!src/less/*.*', '!src/export/*.*', '!gulpfile.js'])
-        .pipe(zip('test.zip'))
+    return gulp.src(['**/*.*', '!node_modules/**/*.*', '!package.json', '!less/*.*', '!export/*.*', '!gulpfile.js', '!.git*', '!templea.html'])
+        .pipe(zip('ztgm.zip'))
         .pipe(gulp.dest('export'));
 });
 
