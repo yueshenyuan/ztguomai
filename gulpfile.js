@@ -11,9 +11,9 @@
  
 // less to css
 gulp.task('less2css', function () {
-    return    gulp.src('./src/less/*.less')
+    return    gulp.src('./less/*.less')
             .pipe(less())
-            .pipe(gulp.dest('./src/css'))
+            .pipe(gulp.dest('./css'))
             .pipe(notify({ message: 'less2css task ok' }));
 });
 
@@ -51,8 +51,8 @@ gulp.task('html', function(){
 
 // 监控文件改动
 gulp.task('watch', function(){
-	gulp.watch('src/less/*', function(e){
-		gulp.run('less2css', 'css');
+	gulp.watch('less/*', function(e){
+		gulp.run('less2css');
 	})
 	gulp.watch('*.html', function(e){
 		gulp.run('html');
@@ -76,7 +76,7 @@ gulp.task('zip', function() {
 // 默认任务
 gulp.task('default', function(){
 
-gulp.run('less2css', 'css', 'js', 'html', 'watch', 'connect');
+gulp.run('less2css', 'html', 'watch', 'connect');
  
 //  // Watch .css files
 //  gulp.watch('src/css/*.css', ['css']);

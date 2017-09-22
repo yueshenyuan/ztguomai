@@ -1,84 +1,80 @@
 .content {
   overflow: hidden;
 }
-.content .c-top {
+.c-top {
   width: 100%;
   height: 422px;
   overflow: hidden;
 }
-.content .c-top > div {
+.c-top > div {
   float: left;
   height: 100%;
 }
-.content .c-top .jtxw,
-.content .c-top .yjxw {
+.c-top .jtxw,
+.c-top .yjxw {
   padding: 32px 15px 20px;
 }
-.content .c-top .jtxw li:last-child,
-.content .c-top .yjxw li:last-child {
+.c-top .jtxw li:last-child,
+.c-top .yjxw li:last-child {
   border-bottom: initial;
 }
-.content .c-top .loop-imgs {
+.c-top .loop-imgs {
   width: 590px;
 }
-.content .c-bottom-left {
+.c-bottom-left {
   float: left;
   width: 880px;
   height: 383px;
   padding-top: 32px;
   background-color: #fff;
 }
-.content .c-bottom-left .cywz,
-.content .c-bottom-left .dszzc {
+.c-bottom-left .cywz,
+.c-bottom-left .dszzc {
   float: left;
   height: 351px;
   overflow: hidden;
 }
-.content .c-bottom-left .cywz {
+.c-bottom-left .cywz {
   width: 265px;
   margin-right: 40px;
   padding-left: 15px;
 }
-.content .c-bottom-left .cywz .list li {
+.c-bottom-left .cywz .list li {
   padding: 15px 0 15px 0;
   border-bottom: 1px dotted;
 }
-.content .c-bottom-left .cywz .list .info {
-  overflow: hidden;
-  margin-bottom: 9px;
-}
-.content .c-bottom-left .cywz .list .info .icon {
+.c-bottom-left .cywz .list .info .icon {
   float: left;
   width: 100px;
   height: 20px;
 }
-.content .c-bottom-left .cywz .list .info .name {
+.c-bottom-left .cywz .list .info .name {
   float: right;
   line-height: 20px;
   width: 100px;
   text-align: right;
 }
-.content .c-bottom-left .cywz .list .url a {
+.c-bottom-left .cywz .list .url a {
   color: blue;
   text-decoration: initial;
 }
-.content .c-bottom-left .dszzc {
+.c-bottom-left .dszzc {
   width: 575px;
 }
-.content .c-bottom-left .dszzc .detail {
+.c-bottom-left .dszzc .detail {
   margin-top: 12px;
   overflow: hidden;
 }
-.content .c-bottom-left .dszzc .detail .avatar,
-.content .c-bottom-left .dszzc .detail .desc {
+.c-bottom-left .dszzc .detail .avatar,
+.c-bottom-left .dszzc .detail .desc {
   float: left;
   overflow: hidden;
 }
-.content .c-bottom-left .dszzc .detail .avatar img {
+.c-bottom-left .dszzc .detail .avatar img {
   width: 211px;
   height: 300px;
 }
-.content .c-bottom-left .dszzc .detail .desc {
+.c-bottom-left .dszzc .detail .desc {
   position: relative;
   width: 339px;
   height: 253px;
@@ -89,77 +85,77 @@
   word-wrap: break-word;
   background: url(../imgs/3.png) no-repeat right 19px;
 }
-.content .c-bottom-left .dszzc .detail .desc h2 {
+.c-bottom-left .dszzc .detail .desc h2 {
   text-align: right;
 }
-.content .c-bottom-left .dszzc .detail .desc .text {
+.c-bottom-left .dszzc .detail .desc .text {
   margin-top: 12px;
 }
-.content .c-bottom-left .gp {
+.c-bottom-left .gp {
   height: 370px;
 }
-.content .c-bottom-left .gp .gpgg,
-.content .c-bottom-left .gp .gpxx {
+.c-bottom-left .gp .gpgg,
+.c-bottom-left .gp .gpxx {
   float: left;
 }
-.content .c-bottom-left .gp .gpgg {
+.c-bottom-left .gp .gpgg {
   width: 265px;
   height: 100%;
   padding: 32px 0 20px 15px;
   margin-right: 40px;
 }
-.content .c-bottom-left .gp .gpgg .list {
+.c-bottom-left .gp .gpgg .list {
   margin-top: 8px;
 }
-.content .c-bottom-left .gp .gpgg .more {
+.c-bottom-left .gp .gpgg .more {
   right: 0;
 }
-.content .c-bottom-left .gp .gpxx {
+.c-bottom-left .gp .gpxx {
   position: relative;
   width: 575px;
   padding-top: 32px;
   padding-right: 20px;
 }
-.content .c-bottom-left .gp .gpxx .more {
+.c-bottom-left .gp .gpxx .more {
   bottom: auto;
   top: 40px;
   right: 20px;
 }
-.content .c-bottom-left .gp .gpxx .kline {
+.c-bottom-left .gp .gpxx .kline {
   padding-top: 12px;
   height: 306px;
 }
-.content .c-bottom-left .gp .gpxx .kline img {
+.c-bottom-left .gp .gpxx .kline img {
   display: block;
   width: 100%;
   height: 100%;
 }
-.content .c-bottom-right {
+.c-bottom-right {
   float: left;
   width: 320px;
   height: 773px;
   background: #fff;
   padding: 32px 15px 0;
 }
-.content .c-bottom-right .gsgk {
+.c-bottom-right .gsgk {
   position: relative;
   height: 100%;
 }
-.content .c-bottom-right .gsgk img {
+.c-bottom-right .gsgk img {
   width: 100%;
 }
-.content .c-bottom-right .gsgk .gsjj-img {
+.c-bottom-right .gsgk .gsjj-img {
   margin-top: 24px;
   margin-bottom: 13px;
 }
-.content .c-bottom-right .gsgk .title {
+.c-bottom-right .gsgk .title {
   color: red;
   margin: 6px 0;
 }
-.content .c-bottom-right .gsgk p {
+.c-bottom-right .gsgk p {
   line-height: 24px;
 }
-.content .c-bottom-right .gsgk .more {
+.c-bottom-right .gsgk .more {
   right: 0;
   bottom: 10px;
 }
