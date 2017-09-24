@@ -44,8 +44,8 @@ gulp.task('js', function() {
 
 // 监测html文件改动
 gulp.task('html', function(){
-	return  gulp.src('index/*.html')
-			.pipe(gulp.dest('index'))
+	return  gulp.src('company/*.html')
+			.pipe(gulp.dest('company'))
 			.pipe(notify({ message: 'html task ok' }))
 			.pipe(connect.reload());
 })
@@ -55,7 +55,7 @@ gulp.task('watch', function(){
 	gulp.watch('less/*', function(e){
 		gulp.run('less2css');
 	})
-	gulp.watch('index/*.html', function(e){
+	gulp.watch('company/*.html', function(e){
 		gulp.run('html');
 	})
 })

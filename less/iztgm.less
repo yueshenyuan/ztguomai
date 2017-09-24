@@ -1,0 +1,201 @@
+@import "reset.less";
+@import "common.less";
+
+body{
+    background-color: #fafafa;
+}
+.content{
+    padding-bottom: 26px;
+    background-color: #fafafa;
+}
+.c-top, .c-bottom{
+    .tq-box, .gzsx-box, .dbsx-box, .yfsx-box, .cybd-box, .cylxr-box{
+        float: left;
+        position: relative;
+        height: 100%;
+    }
+    overflow: hidden;
+}
+.c-top{
+    height: 451px;
+    padding-top: 32px;
+}
+.c-bottom{
+    height: 449px;
+    margin-top: 32px;
+}
+.dbsx{
+    height: 100%;
+    background-color: #f2f2f2;
+    .tabs{
+        position: absolute;
+        right: 0;
+        top: 7px;
+        .tab{
+            position: relative;
+            display: inline-block;
+            color: #333333;
+            width: 113px;
+            height: 24px;
+            line-height: 24px;
+            text-align: center;
+            &.def{
+                background: url(../imgs/diamond-def.png) no-repeat center center;
+                z-index: 2;
+            }
+            &.sel{
+                background: url(../imgs/diamond-sel.png) no-repeat center center;
+                z-index: 10;
+            }
+            &:last-child{
+                margin-left: -18px;
+                margin-right: 10px;
+            }
+        }
+    }
+    .items .item{
+        .info{ 
+            width: 473px;
+        }
+    }
+}
+
+.cybd{
+    height: 100%;
+    margin: 0 15px;
+    border-bottom: 1px solid #535353;
+    background-color: #fafafa;
+    .tabs{
+        position: absolute;
+        right: 16px;
+        top: 8px;
+        padding-right: 18px;
+        color: #666666;
+        background: url(../imgs/arrow-right.png) no-repeat right center;
+    }
+    .form{
+        margin-top: 6px;
+        > li{
+            padding-top: 6px;
+            padding-bottom: 6px;
+            overflow: hidden;
+            border-bottom: 1px dotted #b5b5b5;
+            .f-item{
+                float: left;
+                width: 50%;
+                text-align: center;
+                img{
+                    width: 32px;
+                    height: 35px;
+                }
+                .name{
+                    color: #666666;
+                    width: 80%;
+                    margin: 0 auto;
+                    font-size: 12px;
+                    line-height: 14px;
+                }
+            }
+        }
+        > li.padbottom0{
+            padding-bottom: 0;
+        }
+    }
+}
+
+.gzsx{
+    height: 100%;
+    border-bottom: 1px solid #535353;
+    margin: 0 15px;
+    .items .item{
+        .info{
+            width: 188px;
+        }
+    }
+}
+
+.cylxr{
+    height: 100%;
+    border-bottom: 1px solid #535353;
+    margin: 0 15px;
+    .contacts{
+        .contact{
+            position: relative;
+            display: block;
+            padding: 12px 0 12px 84px;
+            border-bottom: 1px dotted #b5b5b5;
+            .avatar{
+                position: absolute;
+                left: 0;
+                width: 64px;
+                height: 64px;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .name{
+                color: #333333;
+                font-size: 16px;
+                padding: 18px 0 4px;
+            }
+            .job{
+                color: #666666;
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+.items{
+    padding-top: 24px;
+    // margin-left: 15px;
+    // margin-right: 15px;
+    .item{
+        height: 55px;
+        overflow: hidden;
+        .date{
+            float: left;
+            color: #31271e;
+            width: 86px;
+            font-size: 12px;
+            line-height: 55px;
+            border-right: 1px solid #a3a3a3;
+            text-align: center;
+            em{
+                font-size: 16px;
+            }
+        }
+        .info{
+            float: left;
+            font-size: 12px;
+            padding: 7px 0 6px 15px;
+            .name{
+                color: #333333;
+                margin-bottom: 6px;
+                .text-ellipsis;
+            }
+            .status{
+                color: #666666;
+            }
+        }
+        &:hover{
+            .date{
+                border-right: 1px solid #a60000;
+            }
+            background: #fff;
+        }
+    }
+}
+
+.tq-box, .gzsx-box{
+    width: 305px;
+}
+
+.dbsx-box, .yfsx-box{
+    width: 590px;
+}
+
+.cybd-box, .cylxr-box{
+    width: 305px;
+}

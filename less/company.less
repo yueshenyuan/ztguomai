@@ -1,0 +1,150 @@
+@import "reset.less";
+@import "common.less";
+
+.content{
+    background-color: #ffffff;
+    .zxxw-box, .dwgg-box{
+        float: left;
+        height: 100%;
+    }
+    .zxxw-box{
+        width: 744px;
+    }
+    .dwgg-box{
+        width: 456px;
+    }
+}
+
+.c-top{
+    height: 422px;
+}
+.c-middle{
+    height: 470px;
+}
+.c-bottom{
+    height: 490px;
+}
+
+.zxxw{
+    height: 100%;
+    padding-top: 32px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #efefef;
+    .newList{
+        .new{
+            padding: 10px;
+            border-bottom: 1px dotted #afafaf;
+            .date{
+                font-size: 14px;
+                margin-bottom: 6px;
+            }
+            .title{
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+.dwgg{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 32px 15px 0;
+    background-color: #ffffff;
+    .list{
+        .name {
+            width: 190px;
+        }
+        li:last-child{
+            border-bottom: none;
+        }
+    }
+    .bottom-line{
+        position: absolute;
+        width: 426px;
+        bottom: 0;
+        height: 0;
+        border-bottom: 1px solid #333333;
+    }
+}
+
+.dwxxq{
+    height: 100%;
+    padding-top: 32px;
+    background-color: #ffffff;
+    .border{
+        margin: 0 15px;
+    }
+    .titles{
+        height: 36px;
+        overflow: hidden;
+        border-left: 1px solid #535353;
+        border-right: 1px solid #535353;
+        background-color: #c0c0c0;
+        .t1, .t2, .t3{
+            float: left;
+            height: 100%;
+            .t{
+                display: block;
+                color: #a60000;
+                width: 121px;
+                height: 100%;
+                font-size: 18px;
+                line-height: 39px;
+                margin-left: 15px;
+                text-align: center;
+                background: url(../imgs/diamond.png) no-repeat center bottom;
+            }
+        }
+        .t1{
+            width: 510px;
+        }
+        .t2{
+            width: 386px;
+        }
+        .t3{
+            width: 270px;
+        }
+    }
+    .studyList{
+        border-left: 1px solid #535353;
+        border-right: 1px solid #535353;
+        border-bottom: 1px solid #535353;
+        .item{
+            border-bottom: 1px dotted #b5b5b5; 
+            overflow: hidden;
+            .name, .date, .author{
+                float: left;
+                padding-left: 10px;
+                line-height: 36px;
+            }
+            .name{
+                width: 510px;
+                .text-ellipsis;
+            }
+            .date{
+                width: 386px;
+                border-left: 1px dotted #b5b5b5;  
+                border-right: 1px dotted #b5b5b5; 
+            }
+            .author{
+                width: 270px;
+            }
+            &:last-child{
+               border-bottom: none; 
+            }
+        }
+    }
+    .more{
+        bottom: auto;
+        top: 40px;
+        right: 20px;
+        font-size: 16px;
+    }
+}
+
+.gsxzwj{
+    height: 100%;
+    background-color: #ffffff;
+}
