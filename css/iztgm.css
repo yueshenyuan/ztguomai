@@ -474,6 +474,34 @@ body {
   height: 449px;
   margin-top: 32px;
 }
+.tq {
+  height: 100%;
+  background: url(../imgs/weather-bg.png) no-repeat center bottom;
+}
+.tq .city {
+  color: #666666;
+  font-size: 16px;
+  padding-left: 20px;
+  margin-left: 15px;
+  background: url(../imgs/arrow-right.png) no-repeat left center;
+}
+.tq .weather .icon {
+  width: 48px;
+  height: 48px;
+  margin: 56px auto 0;
+  background: url(../imgs/sun.png) no-repeat center center;
+}
+.tq .weather .temperatre {
+  color: #ec5560;
+  font-size: 24px;
+  text-align: center;
+  margin: 11px 0 17px;
+}
+.tq .weather .date {
+  color: #666666;
+  font-size: 14px;
+  text-align: center;
+}
 .dbsx {
   height: 100%;
   background-color: #f2f2f2;
@@ -506,6 +534,9 @@ body {
 }
 .dbsx .items .item .info {
   width: 473px;
+}
+.dbsx #project-manager {
+  display: none;
 }
 .cybd {
   height: 100%;
