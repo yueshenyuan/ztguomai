@@ -555,6 +555,31 @@ body {
 .cybd .form {
   margin-top: 6px;
 }
+.cybd .form .f-item {
+  float: left;
+  text-align: center;
+  width: 50%;
+  border-bottom: 1px dotted #b5b5b5;
+  margin-top: 8px;
+  padding-bottom: 4px;
+}
+.cybd .form .f-item img {
+  width: 32px;
+  height: 35px;
+}
+.cybd .form .f-item .name {
+  width: 80%;
+  margin: 4px auto 0;
+  color: #666666;
+  font-size: 12px;
+  line-height: 14px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.cybd .form .f-item .padbottom0 {
+  padding-bottom: 0;
+}
 .cybd .form > li {
   padding-top: 6px;
   padding-bottom: 6px;

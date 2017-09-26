@@ -71,7 +71,14 @@
 					<iframe src="if-weather.html" scrolling="no" frameborder="0" width="100%" height="100%"></iframe>
 				</div>
 				<div class="dbsx-box">
-					<iframe src="if-todoList.html" scrolling="no" frameborder="0" width="100%" height="100%"></iframe>
+					<div class="dbsx">
+				        <div class="block-title title-bg4">待办事项</div>
+				        <div class="tabs">
+				            <a href="javascript:" data-id="collaborative-office" class="tab sel">协同办公</a>
+				            <a href="javascript:" data-id="project-manager" class="tab def">项目管理平台</a>
+				        </div>
+						<iframe id="todoList" src="if-todoList.html" scrolling="no" frameborder="0" width="100%" height="100%"></iframe>
+					</div>
 				</div>
 				<div class="cybd-box">
 					<iframe src="if-comForms.html" scrolling="no" frameborder="0" width="100%" height="100%"></iframe>
@@ -95,8 +102,23 @@
     </div>     
         
         
-        
-<script src="../js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
-       
+	<script src="../js/jquery.min.js"></script>
+    <script>
+        $(function(){
+            init();
+        })
+
+        function init(){
+            $('.dbsx .tabs .tab').click(function(){
+                $('.dbsx .tabs .tab').removeClass('sel');
+                $(this).addClass('sel');
+                if($(this).attr('data-id') == 'collaborative-office'){
+                	$('#todoList').attr('src','if-todoList.html');
+                }else{
+                	$('#todoList').attr('src','http://www.qq.com');
+                }
+            })
+        }
+    </script>
 </body>
 </html>
