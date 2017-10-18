@@ -439,8 +439,12 @@ select {
   color: #31271e;
   font-family: "Calibri-Bold";
 }
+body {
+  background-color: #fafafa;
+}
 .content {
   overflow: hidden;
+  background-color: #fafafa;
 }
 .c-top {
   width: 100%;
@@ -498,7 +502,6 @@ select {
   width: 895px;
   height: 383px;
   padding-top: 32px;
-  background-color: #fff;
 }
 .cywz-box,
 .dszzc-box {
@@ -582,7 +585,7 @@ select {
 .dszzc .detail .desc .name-img {
   position: absolute;
   right: 20px;
-  bottom: 34px;
+  bottom: 35px;
   width: 80px;
   height: 35px;
 }
