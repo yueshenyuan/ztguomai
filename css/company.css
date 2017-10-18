@@ -427,16 +427,16 @@ select {
 }
 .more {
   position: absolute;
-  color: #31271e;
+  color: #a60000;
   bottom: 8px;
   right: 15px;
   line-height: 13px;
-  padding-right: 18px;
+  padding-right: 10px;
   font-size: 16px;
-  background: url(../imgs/arrow-right.png) no-repeat right center;
+  background: url(../imgs/arrow-red.png) no-repeat right center;
 }
 .more a {
-  color: #31271e;
+  color: #a60000;
   font-family: "Calibri-Bold";
 }
 .content {
