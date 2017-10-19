@@ -222,13 +222,14 @@ select {
   margin: 0 auto;
   padding: 10px 0;
   box-sizing: border-box;
+  background: url(../imgs/top_bg.png) no-repeat center bottom;
 }
 .header .logo {
   float: left;
   /*margin-left: 30px*/
 }
 .logo > img {
-  width: 260px;
+  width: 640px;
 }
 .header .loginStatusTool {
   float: right;
@@ -309,6 +310,7 @@ select {
   width: 100%;
   height: 53px;
   min-width: 1200px;
+  border-radius: 8px 8px 0 0;
   background: url(../imgs/nav_ban.png) center repeat-x;
 }
 .topNav .nav {
@@ -467,8 +469,47 @@ body {
   height: 100%;
 }
 .c-top {
-  height: 451px;
+  height: 528px;
   padding-top: 32px;
+}
+.c-top .c-top-btns {
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+.c-top .c-top-btns a {
+  float: left;
+  color: #ffffff;
+  width: 171px;
+  height: 62px;
+  line-height: 62px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  margin-left: 10px;
+}
+.c-top .c-top-btns a.first {
+  margin-left: 0;
+}
+.c-top .c-top-btns a.btn_red {
+  background: url(../imgs/btn_05.png) no-repeat center center;
+}
+.c-top .c-top-btns a.btn_gray {
+  background: url(../imgs/btn_03.jpg) no-repeat center center;
+}
+.c-top .c-top-left,
+.c-top .c-top-right {
+  float: left;
+  height: 100%;
+}
+.c-top .c-main {
+  height: 419px;
+  overflow: hidden;
+}
+.c-top .c-top-left {
+  width: 305px;
+}
+.c-top .c-top-right {
+  width: 895px;
 }
 .c-bottom {
   height: 449px;
@@ -642,6 +683,10 @@ body {
 .cylxr .contacts .contact .job {
   color: #666666;
   font-size: 12px;
+}
+#collaborative-office {
+  height: 100%;
+  background-color: #f2f2f2;
 }
 .items {
   padding-top: 24px;

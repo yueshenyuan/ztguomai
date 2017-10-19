@@ -17,8 +17,46 @@ body{
     overflow: hidden;
 }
 .c-top{
-    height: 451px;
+    height: 451+77px;
     padding-top: 32px;
+    .c-top-btns{
+        overflow: hidden;
+        margin-bottom: 15px;
+        a{
+            float: left;
+            color: #ffffff;
+            width: 171px;
+            height: 62px;
+            line-height: 62px;
+            font-size: 18px;
+            font-weight: bold;
+            text-align: center;
+            margin-left: 10px;
+            &.first{
+                margin-left: 0;
+            }
+            &.btn_red{
+                background: url(../imgs/btn_05.png) no-repeat center center;
+            }
+            &.btn_gray{
+                background: url(../imgs/btn_03.jpg) no-repeat center center;
+            }
+        }
+    }
+    .c-top-left, .c-top-right{
+        float: left;
+        height: 100%;
+    }
+    .c-main{
+        height: 419px;
+        overflow: hidden;
+    }
+    .c-top-left{
+        width: 305px;
+    }
+    .c-top-right{
+        width: 305+590px;
+    }
 }
 .c-bottom{
     height: 449px;
@@ -203,6 +241,11 @@ body{
             }
         }
     }
+}
+
+#collaborative-office{
+    height: 100%;
+    background-color: #f2f2f2;
 }
 
 .items{
