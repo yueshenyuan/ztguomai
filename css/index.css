@@ -423,7 +423,7 @@ select {
 }
 .news .list li a {
   color: #393939;
-  font-size: 12px;
+  font-size: 13px;
 }
 .news .list li .name {
   float: left;
@@ -488,6 +488,7 @@ select {
 .loop-imgs {
   position: relative;
   width: 590px;
+  height: 100%;
 }
 .loop-imgs .img-title {
   position: absolute;
