@@ -1,13 +1,10 @@
 @import "reset.less";
 @import "common.less";
 
-body{
-  background-color: #fafafa;
-}
 
 .content {
   overflow: hidden;
-  background-color: #fafafa;
+  background-color: #ffffff;
 }
 .c-top {
   width: 100%;
@@ -25,6 +22,7 @@ body{
   }
 }
 .jtxw, .yjxw {
+    height: 100%;
     padding: 32px 15px 20px;
     .list li .name{
         width: 190px;
@@ -46,7 +44,7 @@ body{
         font-size: 14px;
         padding: 6px 14px;
         background: rgba(0,0,0,.3);
-        z-index: 10;
+        z-index: 4;
         h3{
             font-size: 14px;
             line-height: 28px;
@@ -195,7 +193,11 @@ body{
         font-size: 16px;
         a{
             color: #a60000;
+            cursor: pointer;
             font-family: "Calibri-Bold";
+            &:hover{
+                .moreHover;
+            }
         }
     }
         .kline {
@@ -244,6 +246,12 @@ body{
       bottom: 10px;
     }
 }
+
+.jtxw, .yjxw, .gpgg, .gpxx{
+    .moduleBg;
+}
+
+
 
 .swiper-container {
   width: 100%;

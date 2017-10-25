@@ -11,7 +11,6 @@ body {
 }
 body {
   height: 100%;
-  background-color: #ededed;
   -webkit-background-size: cover;
   background-size: cover;
 }
@@ -187,6 +186,15 @@ select {
 .clearfix {
   clear: both;
   overflow: hidden;
+}
+.moreHover {
+  color: #32b16c;
+}
+.bodyBg {
+  background-color: #fafafa;
+}
+.moduleBg {
+  background-color: #ffffff;
 }
 .bgcor1 {
   background-color: #c6e0f1;
@@ -437,16 +445,16 @@ select {
   font-size: 16px;
   background: url(../imgs/arrow-red.png) no-repeat right center;
 }
+.more:hover a {
+  color: #32b16c;
+}
 .more a {
   color: #a60000;
   font-family: "Calibri-Bold";
 }
-body {
-  background-color: #fafafa;
-}
 .content {
   overflow: hidden;
-  background-color: #fafafa;
+  background-color: #ffffff;
 }
 .c-top {
   width: 100%;
@@ -466,6 +474,7 @@ body {
 }
 .jtxw,
 .yjxw {
+  height: 100%;
   padding: 32px 15px 20px;
 }
 .jtxw .list li .name,
@@ -490,7 +499,7 @@ body {
   font-size: 14px;
   padding: 6px 14px;
   background: rgba(0, 0, 0, 0.3);
-  z-index: 10;
+  z-index: 4;
 }
 .loop-imgs .img-title h3 {
   font-size: 14px;
@@ -641,7 +650,11 @@ body {
 }
 .gpxx .more a {
   color: #a60000;
+  cursor: pointer;
   font-family: "Calibri-Bold";
+}
+.gpxx .more a:hover {
+  color: #32b16c;
 }
 .gpxx .kline {
   padding-top: 12px;
@@ -686,6 +699,12 @@ body {
 .gsgk .more {
   right: 0;
   bottom: 10px;
+}
+.jtxw,
+.yjxw,
+.gpgg,
+.gpxx {
+  background-color: #ffffff;
 }
 .swiper-container {
   width: 100%;

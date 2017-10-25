@@ -11,7 +11,6 @@ body {
 }
 body {
   height: 100%;
-  background-color: #ededed;
   -webkit-background-size: cover;
   background-size: cover;
 }
@@ -187,6 +186,15 @@ select {
 .clearfix {
   clear: both;
   overflow: hidden;
+}
+.moreHover {
+  color: #32b16c;
+}
+.bodyBg {
+  background-color: #fafafa;
+}
+.moduleBg {
+  background-color: #ffffff;
 }
 .bgcor1 {
   background-color: #c6e0f1;
@@ -437,16 +445,16 @@ select {
   font-size: 16px;
   background: url(../imgs/arrow-red.png) no-repeat right center;
 }
+.more:hover a {
+  color: #32b16c;
+}
 .more a {
   color: #a60000;
   font-family: "Calibri-Bold";
 }
-body {
-  background-color: #fafafa;
-}
 .content {
   padding-bottom: 26px;
-  background-color: #fafafa;
+  background-color: #ffffff;
 }
 .c-top,
 .c-bottom {
@@ -470,11 +478,12 @@ body {
 }
 .c-top {
   height: 528px;
-  padding-top: 32px;
+  padding-top: 15px;
 }
 .c-top .c-top-btns {
+  display: none;
   overflow: hidden;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 .c-top .c-top-btns a {
   float: left;
@@ -502,7 +511,7 @@ body {
   height: 100%;
 }
 .c-top .c-main {
-  height: 419px;
+  height: 513px;
   overflow: hidden;
 }
 .c-top .c-top-left {
@@ -513,11 +522,17 @@ body {
 }
 .c-bottom {
   height: 449px;
-  margin-top: 32px;
+  margin-top: 15px;
 }
 .tq {
   height: 100%;
   background: url(../imgs/weather-bg.png) no-repeat center bottom;
+}
+.tq .title {
+  position: absolute;
+  top: 2px;
+  font-size: 16px;
+  font-weight: bold;
 }
 .tq .city {
   color: #666666;
@@ -545,7 +560,7 @@ body {
 }
 .dbsx {
   height: 100%;
-  background-color: #f2f2f2;
+  background-color: #ffffff;
 }
 .dbsx .tabs {
   position: absolute;
@@ -582,16 +597,19 @@ body {
 .cybd {
   height: 100%;
   margin: 0 15px;
-  border-bottom: 1px solid #535353;
-  background-color: #fafafa;
 }
 .cybd .tabs {
   position: absolute;
   right: 16px;
   top: 8px;
-  padding-right: 18px;
-  color: #666666;
-  background: url(../imgs/arrow-right.png) no-repeat right center;
+  padding-right: 10px;
+  background: url(../imgs/arrow-red.png) no-repeat right center;
+}
+.cybd .tabs a {
+  color: #a60000;
+}
+.cybd .tabs a:hover {
+  color: #32b16c;
 }
 .cybd .form {
   margin-top: 6px;
@@ -684,9 +702,15 @@ body {
   color: #666666;
   font-size: 12px;
 }
+.cybd .block-title,
+.gzsx .block-title,
+.cylxr .block-title {
+  width: 290px;
+  margin-left: -15px;
+}
 #collaborative-office {
   height: 100%;
-  background-color: #f2f2f2;
+  background-color: #ffffff;
 }
 .items {
   padding-top: 24px;

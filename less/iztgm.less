@@ -1,12 +1,9 @@
 @import "reset.less";
 @import "common.less";
 
-body{
-    background-color: #fafafa;
-}
 .content{
     padding-bottom: 26px;
-    background-color: #fafafa;
+    background-color: #ffffff;
 }
 .c-top, .c-bottom{
     .tq-box, .gzsx-box, .dbsx-box, .yfsx-box, .cybd-box, .cylxr-box{
@@ -18,10 +15,11 @@ body{
 }
 .c-top{
     height: 451+77px;
-    padding-top: 32px;
+    padding-top: 15px;
     .c-top-btns{
+        display: none;
         overflow: hidden;
-        margin-bottom: 15px;
+        margin-bottom: 10px;
         a{
             float: left;
             color: #ffffff;
@@ -48,7 +46,7 @@ body{
         height: 100%;
     }
     .c-main{
-        height: 419px;
+        height: 439px + 74px;
         overflow: hidden;
     }
     .c-top-left{
@@ -60,12 +58,18 @@ body{
 }
 .c-bottom{
     height: 449px;
-    margin-top: 32px;
+    margin-top: 15px;
 }
 
 .tq{
     height: 100%;
     background: url(../imgs/weather-bg.png) no-repeat center bottom;
+    .title{
+        position: absolute;
+        top: 2px;
+        font-size: 16px;
+        font-weight: bold;
+    }
     .city{
         color: #666666;
         font-size: 16px;
@@ -96,7 +100,7 @@ body{
 
 .dbsx{
     height: 100%;
-    background-color: #f2f2f2;
+    .moduleBg;
     .tabs{
         position: absolute;
         right: 0;
@@ -136,15 +140,18 @@ body{
 .cybd{
     height: 100%;
     margin: 0 15px;
-    border-bottom: 1px solid #535353;
-    background-color: #fafafa;
     .tabs{
         position: absolute;
         right: 16px;
         top: 8px;
-        padding-right: 18px;
-        color: #666666;
-        background: url(../imgs/arrow-right.png) no-repeat right center;
+        padding-right: 10px;
+        background: url(../imgs/arrow-red.png) no-repeat right center;
+        a{
+            color: #a60000;
+            &:hover{
+                .moreHover;
+            }
+        }
     }
     .form{
         margin-top: 6px;
@@ -243,9 +250,16 @@ body{
     }
 }
 
+.cybd, .gzsx, .cylxr{
+    .block-title{
+        width: 290px;
+        margin-left: -15px;
+    }
+}
+
 #collaborative-office{
     height: 100%;
-    background-color: #f2f2f2;
+    .moduleBg;
 }
 
 .items{
