@@ -9,7 +9,7 @@
   overflow: hidden;
 }
 .moreHover {
-  color: #32b16c;
+  color: #d33535;
 }
 .bodyBg {
   background-color: #fafafa;
@@ -244,7 +244,7 @@
 }
 .news .list li a {
   color: #393939;
-  font-size: 13px;
+  font-size: 15px;
 }
 .news .list li .name {
   float: left;
@@ -267,7 +267,7 @@
   background: url(../imgs/arrow-red.png) no-repeat right center;
 }
 .more:hover a {
-  color: #32b16c;
+  color: #d33535;
 }
 .more a {
   color: #a60000;

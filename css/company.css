@@ -188,7 +188,7 @@ select {
   overflow: hidden;
 }
 .moreHover {
-  color: #32b16c;
+  color: #d33535;
 }
 .bodyBg {
   background-color: #fafafa;
@@ -423,7 +423,7 @@ select {
 }
 .news .list li a {
   color: #393939;
-  font-size: 13px;
+  font-size: 15px;
 }
 .news .list li .name {
   float: left;
@@ -446,7 +446,7 @@ select {
   background: url(../imgs/arrow-red.png) no-repeat right center;
 }
 .more:hover a {
-  color: #32b16c;
+  color: #d33535;
 }
 .more a {
   color: #a60000;
@@ -487,11 +487,11 @@ select {
   border-bottom: 1px dotted #afafaf;
 }
 .zxxw .newList .new .date {
-  font-size: 14px;
+  font-size: 18px;
   margin-bottom: 6px;
 }
 .zxxw .newList .new .title {
-  font-size: 12px;
+  font-size: 15px;
 }
 .dwgg {
   position: relative;
@@ -571,6 +571,7 @@ select {
   float: left;
   padding-left: 10px;
   line-height: 36px;
+  font-size: 15px;
 }
 .dwxxq .studyList .item .name {
   width: 510px;
