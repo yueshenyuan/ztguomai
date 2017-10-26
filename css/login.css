@@ -6,7 +6,7 @@
   height: 100%;
   background: url(../imgs/login-bg.jpg) no-repeat center center;
   background-size: cover;
-  z-index: 0;
+  z-index: -1;
 }
 .logo {
   position: absolute;
@@ -49,4 +49,67 @@
   text-align: center;
   background-color: initial;
   background-color: blue;
+}
+.navs {
+  float: right;
+  margin-right: 20%;
+  z-index: 20;
+}
+.navs > ul {
+  overflow: hidden;
+}
+.navs > ul > li {
+  float: left;
+  list-style: none;
+  color: #fff;
+  margin-left: 5px;
+  padding: 0px 0;
+}
+.navs > ul > li a {
+  display: block;
+  color: #fff;
+  height: 30px;
+  line-height: 27px;
+  text-decoration: blink;
+}
+.navs > ul > li .sub-navs {
+  position: absolute;
+  width: 100%;
+  height: 48px;
+  left: 0;
+  margin-top: 2px;
+  background: blue;
+}
+.navs > ul > li .sub-navs ul {
+  float: right;
+  width: 500px;
+  margin-right: 20%;
+  overflow: hidden;
+}
+.navs > ul > li .sub-navs ul li {
+  float: left;
+  width: 16.6%;
+  list-style: none;
+}
+.navs > ul > li .sub-navs ul li a {
+  color: #000000;
+  font-size: 14px;
+  line-height: 48px;
+  text-decoration: blink;
+}
+.navs > ul .sel {
+  border-bottom: 2px solid coral;
+}
+.navs > ul .sel a {
+  color: coral;
+}
+.navs > ul .first a {
+  background: none;
+}
+.navs > ul .v-line {
+  float: left;
+  width: 25px;
+  height: 32px;
+  padding: 0;
+  background: url(http://114.255.136.135/portal/frame/themes/webclassic/login/images/cut_white.png) no-repeat center center;
 }

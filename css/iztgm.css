@@ -526,8 +526,12 @@ select {
 }
 .tq {
   height: 100%;
-  padding-top: 36px;
+  margin: 0 15px;
   background: url(../imgs/weather-bg.png) no-repeat center bottom;
+}
+.tq .block-title {
+  margin-left: -15px;
+  margin-bottom: 15px;
 }
 .tq .title {
   position: absolute;
