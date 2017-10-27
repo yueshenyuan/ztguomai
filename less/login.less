@@ -1,3 +1,10 @@
+body{
+    
+}
+body, p, ul, li{
+    margin: 0;
+}
+
 .bg{
     position: fixed;
     top: 0;
@@ -53,6 +60,7 @@
 
 .navs{
     float: right;
+    margin-top: 47px;
     margin-right: 20%;
     z-index: 20;
     >ul{
@@ -60,49 +68,55 @@
         >li{
             float: left;
             list-style: none;
-            color: #fff;
-            margin-left: 5px;
-            padding: 0px 0;
-            a{
+            padding: 0px 10px;
+            >a{
                 display: block;
-                color: #fff;
-                height: 30px;
-                line-height: 27px;
+                color: #dae8f5;
+                height: 46px;
+                font-size: 26px;
+                line-height: 26px;
                 text-decoration: blink;
             }
             .sub-navs{
                 position: absolute;
+                display: none;
                 width: 100%;
-                height: 48px;
+                height: 92px;
                 left: 0;
                 margin-top: 2px;
-                background: blue;
+                background: url(../imgs/line_11.png) repeat-x;
                 ul{
                     float: right;
-                    width: 500px;
-                    margin-right: 20%;
+                    width: 700px;
+                    margin-right: 22%;
                     overflow: hidden;
                     li{
                         float: left;
                         width: 16.6%;
+                        height: 92px;
+                        text-align: center;
                         list-style: none;
                         a{
-                            color: #000000;
-                            font-size: 14px;
-                            line-height: 48px;
+                            display: block;
+                            color: #dae8f5;
+                            font-size: 22px;
+                            line-height: 92px;
                             text-decoration: blink;
+                        }
+                        a:hover{
+                            color: #eb6622;
                         }
                     }
                 }
-                .gygm{
-
-                }
             }
         }
-        .sel{
-            border-bottom: 2px solid coral;
+        >li:hover{
+            border-bottom: 2px solid #eb6622;
+            >.sub-navs{
+                display: block;
+            }
             a{
-                color: coral;
+                color: #eb6622;
             }
         }
         .first{
@@ -112,10 +126,11 @@
         }
         .v-line{
             float: left;
-            width: 25px;
-            height: 32px;
+            width: 13px;
+            height: 26px;
             padding: 0;
-            background: url(http://114.255.136.135/portal/frame/themes/webclassic/login/images/cut_white.png) no-repeat center center;
+            border-bottom: none !important;
+            background: url(../imgs/line_03.png) no-repeat center center;
         }
     }
 }
