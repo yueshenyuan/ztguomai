@@ -709,15 +709,16 @@ select {
   color: #666666;
   font-size: 12px;
 }
-.cybd .block-title,
-.gzsx .block-title,
-.cylxr .block-title {
+.gzsx .block-title {
   width: 290px;
   margin-left: -15px;
 }
 #collaborative-office {
   height: 100%;
   background-color: #ffffff;
+}
+#collaborative-office .items .item .info .name {
+  width: 480px;
 }
 .items {
   padding-top: 24px;
@@ -750,8 +751,21 @@ select {
   text-overflow: ellipsis;
   white-space: nowrap;
 }
+.items .item .info .name a {
+  color: #333333;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
 .items .item .info .status {
   color: #666666;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.items .item .info .status a {
+  color: #a60000;
+  margin: 0 5px;
 }
 .items .item:hover {
   background: #fff;
