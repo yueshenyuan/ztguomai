@@ -221,6 +221,7 @@ select {
 .main {
   display: block;
   margin: 0 auto;
+  background: url(../imgs/index-bg.png) no-repeat bottom center;
 }
 .header {
   position: relative;
