@@ -125,8 +125,8 @@
 
         function init(){
             $('.dbsx .tabs .tab').click(function(){
-                $('.dbsx .tabs .tab').removeClass('sel');
-                $(this).addClass('sel');
+                $('.dbsx .tabs .tab').removeClass('sel').addClass('def');
+                $(this).addClass('sel').removeClass('def');
                 if($(this).attr('data-id') == 'collaborative-office'){
                 	$('#todoList').attr('src','if-todoList.html');
                 }else{
