@@ -288,7 +288,7 @@ select {
   width: 24px;
   height: 24px;
   font-size: 14px;
-  background: #a60100;
+  background: #2b90d9;
   color: #fff;
   border-radius: 100%;
   text-align: center;
@@ -304,7 +304,7 @@ select {
   font-size: 14px;
 }
 .die {
-  color: #a50000!important;
+  color: #2b90d9 !important;
 }
 .die:before {
   content: "|";
@@ -438,7 +438,7 @@ select {
 }
 .more {
   position: absolute;
-  color: #a60000;
+  color: #2b90d9;
   bottom: 8px;
   right: 15px;
   line-height: 13px;
@@ -450,7 +450,7 @@ select {
   color: #d33535;
 }
 .more a {
-  color: #a60000;
+  color: #2b90d9;
   font-family: "Calibri-Bold";
 }
 .content {
@@ -539,7 +539,7 @@ select {
 .dwxxq .titles .t2 .t,
 .dwxxq .titles .t3 .t {
   display: block;
-  color: #a60000;
+  color: #2b90d9;
   width: 121px;
   height: 100%;
   font-size: 18px;

@@ -39,7 +39,7 @@
     text-overflow:ellipsis;
     white-space: nowrap;
 }
-
+@font-blue: #2b90d9;
 
 
 
@@ -114,7 +114,7 @@
   width: 24px;
   height: 24px;
   font-size: 14px;
-  background: #a60100;
+  background: @font-blue;
   color: #fff;
   border-radius: 100%;
   text-align: center;
@@ -130,7 +130,7 @@
   font-size: 14px;
 }
 .die {
-  color: #a50000!important;
+  color: @font-blue!important;
 }
 .die:before {
   content: "|";
@@ -265,7 +265,7 @@
 }
 .more {
   position: absolute;
-  color: #a60000;
+  color: @font-blue;
   bottom: 8px;
   right: 15px;
   line-height: 13px;
@@ -276,7 +276,7 @@
     .moreHover;
   }
   a{
-      color: #a60000;
+      color: @font-blue;
       font-family: "Calibri-Bold";
   }
 }
