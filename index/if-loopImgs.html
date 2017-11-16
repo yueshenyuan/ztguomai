@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>中通国脉</title>
     <link rel="stylesheet" href="../css/reset.css"/>
-	<link rel="stylesheet" href="../css/swiper.min.css">
+	<link rel="stylesheet" href="../css/idangerous.swiper.css">
     <link rel="stylesheet" href="../css/index.css"/>
 </head>
 <body>
@@ -13,36 +13,49 @@
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <img src="../imgs/1.png" alt="">
+                    <div class="img-title">
+                        <p class="date">1017-08-01</p>
+                        <h3 class="name">飞快的设计费</h3>
+                    </div>
                 </div>
                 <div class="swiper-slide">
                     <img src="../imgs/1.png" alt="">
+                    <div class="img-title">
+                        <p class="date">1017-08-01</p>
+                        <h3 class="name">西藏军区政治部文工团</h3>
+                    </div>
                 </div>
                 <div class="swiper-slide">
                     <img src="../imgs/1.png" alt="">
+                    <div class="img-title">
+                        <p class="date">1017-08-01</p>
+                        <h3 class="name">中国人民银行</h3>
+                    </div>
                 </div>
                 <div class="swiper-slide">
                     <img src="../imgs/1.png" alt="">
+                    <div class="img-title">
+                        <p class="date">1017-08-01</p>
+                        <h3 class="name">飞快的设计费</h3>
+                    </div>
                 </div>
                 <div class="swiper-slide">
                     <img src="../imgs/1.png" alt="">
+                    <div class="img-title">
+                        <p class="date">1017-08-01</p>
+                        <h3 class="name">中华人民共和国万岁</h3>
+                    </div>
                 </div>
             </div>
             <!-- Add Pagination -->
             <div class="swiper-pagination"></div>
-
-            <!-- 标题 -->
-            <div class="img-title">
-                <p class="date">1017-08-01</p>
-                <h3 class="name">为了庆祝国庆节的到来为了庆祝国庆节的到来为了庆祝国庆节的到来为了庆祝国庆节的到来</h3>
-            </div>
         </div>
     </div>
 
 <script src="../js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
-<script src="../js/swiper.jquery.min.js"></script>
+<script src="../js/idangerous.swiper.min.js"></script>
 <script>
 	$(function(){
-		var imgNames = ['中华人民共和国万岁', '飞快的设计费', '中国人民银行', '联合国难民署', '西藏军区政治部文工团', '好爱好'];
 		var swiper = new Swiper('.swiper-container', {
 			pagination: '.swiper-pagination',
 			paginationClickable: true,
@@ -51,8 +64,6 @@
 			autoplay: 2500,
 			autoplayDisableOnInteraction: false,
 			onSlideChangeEnd: function(swiper){
-				// alert(swiper.activeIndex) //切换结束时，告诉我现在是第几个slide
-				$('.loop-imgs .img-title .name').html(imgNames[swiper.activeIndex]);
 			}
 		});
 

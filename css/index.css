@@ -426,6 +426,9 @@ select {
   color: #393939;
   font-size: 15px;
 }
+.news .list li a:visited {
+  color: gray;
+}
 .news .list li .name {
   float: left;
   overflow: hidden;
@@ -500,6 +503,7 @@ select {
   color: #fff;
   font-size: 14px;
   padding: 6px 14px;
+  text-align: left;
   background: rgba(0, 0, 0, 0.3);
   z-index: 4;
 }
@@ -709,53 +713,4 @@ select {
 .gpgg,
 .gpxx {
   background-color: #ffffff;
-}
-.swiper-container {
-  width: 100%;
-  height: 100%;
-  margin-left: auto;
-  margin-right: auto;
-}
-.swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  background: #fff;
-  /* Center slide text vertically */
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  -webkit-align-items: center;
-  align-items: center;
-}
-.swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
-}
-.swiper-pagination {
-  text-align: right !important;
-}
-.swiper-pagination-bullet {
-  width: 14px;
-  height: 14px;
-  opacity: 1;
-  background-color: #fff;
-}
-.swiper-pagination-bullet-active {
-  background-color: #2b90d9;
-}
-.swiper-container-horizontal > .swiper-pagination-bullets,
-.swiper-pagination-custom,
-.swiper-pagination-fraction {
-  bottom: 6px;
-}
-.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
-  margin: 0 10px;
 }
