@@ -156,7 +156,8 @@ Pagination Styles
 	cursor: pointer;
   }
   .swiper-pagination .swiper-active-switch {
-	background-color: #2b90d9;
+	/*background-color: #2b90d9;*/
+	background: url(../imgs/lan.png) no-repeat center center;
   }
 .swiper-pagination-switch {
 	/* Stylize pagination button: */
@@ -165,7 +166,8 @@ Pagination Styles
     opacity: 1;
 	border: none;
 	margin: 0 10px;
-    background-color: #fff;	
+    /*background-color: #fff;	*/
+    background: url(../imgs/bai.png) no-repeat center center;
 
 }
 .swiper-active-switch {
