@@ -269,17 +269,20 @@
 .more {
   position: absolute;
   color: @font-blue;
+  width: 48px;
+  height: 10px;
   bottom: 8px;
   right: 15px;
   line-height: 13px;
-  padding-right: 10px;
   font-size: 16px;
-  background: url(../imgs/arrow-red.png) no-repeat right center;
+  
   &:hover a{
-    .moreHover;
+    background: url(../imgs/more-hover.png) no-repeat right center;
   }
   a{
-      color: @font-blue;
-      font-family: "Calibri-Bold";
+      display: block;
+      width: 100%;
+      height: 100%;
+      background: url(../imgs/more-def.png) no-repeat right center;
   }
 }
